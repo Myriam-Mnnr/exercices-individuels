@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Guess A Number</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1>Guess a number</h1>
+    <h2 id="range"></h2>
+    <h3 id="message"></h3>
+
+    <p>
+        <label for="firstplayer">Joueur 1 : entrez un nombre entre 0 et 50. </label>
+        <br>
+        <input type="text" id="playerOne" name="playerOne" size="10"/>
+        <button type="submit" onclick="playerOne('')">Valider</button>
+    <p>
+
+
+    <p>
+        <label for="secondplayer">Joueur 2 : entrez un nombre.</label>
+        <br>
+        <input type="text" id="playerTwo" name="playerTwo" size="10"/>
+        <button type="submit" onclick="didIWin(givenTarget)">Valider</button>
+    <p>
+
+    <p id="indice"></p>
+    <p id="tentative"></p>
+
+
+        <script src="js/script.js"></script>
+</body>
+
+</html>
