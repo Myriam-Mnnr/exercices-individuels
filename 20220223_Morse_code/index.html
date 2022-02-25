@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Parlez-vous le Morse ?</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <h1>Morse encoder/decoder</h1>
+        <p>
+            <input type="text" id="morsetext" name="morse" size="30"/>
+            <button onclick="encode(morsetext.value)">Transform to Morse</button>
+            <button onclick="decode(morsetext.value)">Transform to text</button>
+        <p>
+        <h3>Result : </h3> 
+        <p id="result"></p>
+    
+        <script src="js/script.js"></script>
+    </body>
+</html>
