@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Jeu des allumettes</title>
+</head>
+<body>
+    <h1>Jeu des allumettes</h1>
+    <p id="player"></p>
+    <p>Nombre d'allumettes</p>
+    <p id="allumettes">50</p>
+    <label for="answerPlayer">Veuillez entrer un chiffre entre 1 et 6 : </label>
+        <br>
+    <input type="number" id="answer" name="answer" size="10"/>
+    <button onclick="jeu()">Valider</button>
+    <p id="erreurone"></p>
+    <p id="erreurtwo"></p>
+    <p id="victoire"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
